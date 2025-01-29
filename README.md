@@ -124,6 +124,14 @@ Isso garante um **fluxo de pedidos assíncrono e escalável**, sem bloqueios ent
 | `cliente_id` | BIGINT (FK) | Cliente relacionado |
 | `vendedor_id` | BIGINT (FK) | Vendedor responsável |
 
+#### **Tabela: historico_status**
+| Coluna | Tipo | Descrição |
+|--------|------|-----------|
+| id | BIGINT (PK) | Identificador único do histórico |
+| pedido_id | BIGINT (FK) | Pedido relacionado |
+| status | VARCHAR(50) | Status registrado |
+| data_atualizacao | TIMESTAMP | Data da atualização do status |
+
 ## Testes
 Os testes estão localizados no diretório `src/test/java` e incluem:
 - **Testes unitários para serviços.**
