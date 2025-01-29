@@ -121,7 +121,7 @@ src/main/java/com/academia/loja_accenture
 ```
 
 ## Modelo de Dados (ER Diagram)
-![ER Diagram](./er-diagram.png)
+![ER Diagram](https://github.com/nataliatviana/readmetest/blob/main/diagrama%20loja%20atualizado.png?raw=true)
 
 ### Descrição das Entidades
 #### **Tabela: `vendedor`**
